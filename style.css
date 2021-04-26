@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(fondo.png) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    
+}
+.container {
+    width: 320px;
+    height: 420px;
+    background-color: black;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.container .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 51%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.container label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.container h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.container input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.container input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 16px;
+
+}
+.container input[type="submit"]:hover {
+    background: darkred;
+}
+.container a {
+    text-decoration: none;
+    display: block;
+    color: gray;
+    font-size: 12px;
+}
+.container a:hover {
+    color: darkgray;
+}
